@@ -99,3 +99,22 @@
 // Hoisting occurs when you declare a variable and then the interpreter moves your variable to the top of the scope they in.
 // Variable scoping has two types, the first one is global scope and the second one is local scope. Variables initialized in the global scope will be recognised through out your code but if you initialize a variable inside a function which it then becomes a local scope and this type of variable scoping will only be recognised inside that function
 
+// =======================================================
+//                       Question 2 
+// =======================================================
+
+let personDetails = {
+    firstName: 'Justin',
+    lastName: 'Scholtz',
+    age: 24,
+    listOfSubjects: ['JavaScript','C#','CSS','HTML5','Python'],
+    address: {
+        streetName: 'Gatesville',
+        streetNumber: 58,
+        suburb: 'Athlone',
+        city: 'Cape Town',
+        countryName: 'South Africa'
+    }
+}
+
+console.log(personDetails);
