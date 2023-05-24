@@ -118,3 +118,14 @@ let personDetails = {
 }
 
 console.log(personDetails);
+
+// =======================================================
+//                       Question 3 
+// =======================================================
+
+function getResult(){
+    let num1 = +document.querySelector('#input1').value
+    let num2 = +document.querySelector('#input2').value
+    let operator = document.querySelector('#operator').value
+    let ans = document.querySelector('#output')
+}
