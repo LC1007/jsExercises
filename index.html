@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Answers are in the code.js file -->
-    <script src="./script/code.js"></script>
+<div class="form">
+    <label for="input1">Number:</label>
+    <input type="number" name="input1" id="input1">
+    <label for="operator">Operator</label>
+    <input type="text" name="operator" id="operator">
+    <label for="input2">Number:</label>
+    <input type="number" name="input2"id="input2">
+    <h2 id="output"></h2>
+    <button class="btn" id="btnResult" onclick="getResult()">Display</button>
+</div>
+<script src="./script/code.js"></script>
 </body>
 </html>
