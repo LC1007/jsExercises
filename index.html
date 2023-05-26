@@ -10,14 +10,18 @@
 <body>
     <!-- Answers are in the code.js file -->
 <div class="form">
-    <label for="input1">Number:</label>
-    <input type="number" name="input1" id="input1">
-    <label for="operator">Operator</label>
-    <input type="text" name="operator" id="operator">
-    <label for="input2">Number:</label>
-    <input type="number" name="input2"id="input2">
-    <h2 id="output"></h2>
-    <button class="btn" id="btnResult" onclick="getResult()">Display</button>
+    <div class="left-side">
+        <label for="input1">Number:</label>
+        <label for="operator">Operator</label>
+        <label for="input2">Number:</label>
+    </div>
+    <div class="right-side">
+        <input type="number" name="input1" id="input1" placeholder="10">
+        <input type="text" name="operator" id="operator" placeholder="*">
+        <input type="number" name="input2"id="input2" placeholder="10">
+        <h2 id="output"></h2>
+        <button class="btn" id="btnResult" onclick="getResult()">Display Result</button>
+    </div>
 </div>
 <script src="./script/code.js"></script>
 </body>

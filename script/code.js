@@ -128,4 +128,14 @@ function getResult(){
     let num2 = +document.querySelector('#input2').value
     let operator = document.querySelector('#operator').value
     let ans = document.querySelector('#output')
+
+    if(operator == '+'){
+        ans.textContent = num1 + num2
+    } else if(operator == '-'){
+        ans.textContent = num1 - num2
+    } else if(operator == '*'){
+        ans.textContent = num1 * num2
+    } else if(operator == '/'){
+        ans.textContent = num1 / num2
+    }
 }
